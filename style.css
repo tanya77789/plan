@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.section_title {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: 48px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section_subtitle {
+    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font_white {
+    color: white;
+}
+
+.font_grey {
+    color: #777;
+}
+
+.font_ {
+    color: #4fe9a4;
+}
+
+.font_green {
+    color: #4fe9a4;
+}
+
+.dark_bg {
+    background: #0a2640;
+}
+
+.white_bg {
+    background: #fff;
+}
+
+.green_bg {
+    background: #65e4a3;
+}
+
+.header {
+    width: 100%;
+    background-color: #0a2640;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+.main_title {
+    font-family: "Manrope", sans-serif;
+    font-size: 48.5px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.birch {
+    color: rgba(90, 204, 151, 1);
+}
+
+
+
+.plans_list {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+ul{
+        list-style-type: none;
+}
+.plan_item  {
+    list-style-type: none;
+    color: rgba(90, 204, 151, 1);
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    padding: 2px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.plan_item:hover {
+    color: white;
+    background-color: rgba(90, 204, 151, 1);
+    border: 3px solid rgba(90, 204, 151, 1);
+}
+
